@@ -29,6 +29,8 @@ import Dialog from "primevue/dialog";
 import Textarea from "primevue/textarea";
 import Rating from "primevue/rating";
 
+import LoadingPage from "./layouts/LoadingPage.vue";
+
 import Vue3Marquee from "vue3-marquee";
 
 const app = createApp(App);
@@ -89,6 +91,8 @@ app.component("Dialog", Dialog);
 app.component("Image", Image);
 app.component("Textarea", Textarea);
 app.component("Rating", Rating);
+
+app.component("LoadingPage", LoadingPage);
 
 app.component("Vue3Marquee", Vue3Marquee);
 
