@@ -21,7 +21,7 @@
           class="cta col"
         >
           <h2>Top-Rated Auto Damage Appraisal Services in Colorado</h2>
-          <a href="" class="row-10 request"
+          <a href="" class="row-10 request" @click.prevent="scrollTo('#form')"
             ><p>Request an Estimate Now</p>
             <i class="pi pi-arrow-right"></i
           ></a>
@@ -47,7 +47,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollTo(selector) {
+      const target = document.querySelector(selector);
+      if (target && window.lenis) {
+        window.lenis.scrollTo(target, {
+          offset: 0,
+          duration: 1.2,
+          easing: (t) => 1 - Math.pow(1 - t, 3), // easeOutCubic
+        });
+      }
+    },
+  },
+};
 </script>
 
 <style></style>
