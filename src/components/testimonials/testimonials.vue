@@ -5,12 +5,11 @@
       Life-changing experiences await. Discover what our customers have to say.
     </p>
 
-    <vue-marquee-slider
-      id="marquee-slider-loop"
-      :speed="200000"
-      :autoWidth="true"
-      space="30"
+    <Vue3Marquee
       class="testimonial-row row"
+      :duration="100"
+      style="gap: 30px"
+      :pauseOnHover="true"
     >
       <div
         v-for="(testimonial, index) in testimonials"
@@ -34,7 +33,7 @@
         </div>
         <div class="content">"{{ testimonial.testimonial }}"</div>
       </div>
-    </vue-marquee-slider>
+    </Vue3Marquee>
   </section>
 </template>
 
@@ -42,6 +41,7 @@
 export default {
   data() {
     return {
+      isPaused: false,
       testimonials: [
         {
           name: "David M.",

@@ -29,8 +29,7 @@ import Dialog from "primevue/dialog";
 import Textarea from "primevue/textarea";
 import Rating from "primevue/rating";
 
-import { VueMarqueeSlider } from "vue3-marquee-slider";
-import "../node_modules/vue3-marquee-slider/dist/style.css";
+import Vue3Marquee from "vue3-marquee";
 
 const app = createApp(App);
 
@@ -91,7 +90,9 @@ app.component("Image", Image);
 app.component("Textarea", Textarea);
 app.component("Rating", Rating);
 
-app.component("VueMarqueeSlider", VueMarqueeSlider);
+app.component("Vue3Marquee", Vue3Marquee);
+
+app.use(Vue3Marquee);
 
 AOS.init();
 
