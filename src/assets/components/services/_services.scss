@@ -1,0 +1,54 @@
+.service-container {
+  .service {
+    .image-container {
+      flex-grow: 1;
+      flex-basis: 500px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .copy-container {
+      padding: 30px;
+      flex-grow: 1;
+      flex-basis: 500px;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        margin: 0;
+        width: fit-content;
+        position: relative;
+        text-transform: uppercase;
+
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          border: solid var(--p-surface-900);
+        }
+
+        &::before {
+          left: -18px;
+          bottom: -18px;
+          border-top: none;
+          border-right: none;
+        }
+
+        &::after {
+          right: -18px;
+          top: -18px;
+          border-bottom: none;
+          border-left: none;
+        }
+      }
+
+      .request {
+        margin-top: 0px;
+      }
+    }
+  }
+}

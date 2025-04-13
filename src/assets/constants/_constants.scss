@@ -1,0 +1,136 @@
+.row {
+  display: flex;
+}
+
+.row-5 {
+  display: flex;
+  gap: 5px;
+}
+
+.row-10 {
+  display: flex;
+  gap: 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.col-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+img {
+  // color: #fff;
+  // z-index: 4 !important;
+  // position: relative;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.error {
+  color: rgb(226, 144, 144);
+}
+
+.btn {
+  background: black !important;
+}
+
+.p-0,
+.h-0 {
+  margin: 0;
+}
+
+.input-container {
+  width: 100%;
+
+  input {
+    width: 100%;
+  }
+
+  .p-inputtext {
+    border-radius: 0px;
+  }
+
+  .p-inputnumber {
+    width: 100%;
+  }
+
+  .p-password {
+    width: 100%;
+  }
+
+  .p-select {
+    width: 100%;
+  }
+
+  .p-multiselect {
+    width: 100%;
+  }
+
+  .p-datepicker {
+    width: 100%;
+  }
+}
+
+.p-image {
+  img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.p-textarea {
+  width: 100%;
+}
+
+.p-message-error {
+  .p-message-text {
+    font-size: 12px !important;
+  }
+}
+
+.p-toast {
+  z-index: 99;
+}
+
+.request {
+  width: fit-content;
+  color: white;
+  background: $primary;
+  padding: 10px 15px;
+  text-decoration: none;
+  align-items: center;
+
+  p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+.p-rating-icon {
+  color: $secondary !important;
+}

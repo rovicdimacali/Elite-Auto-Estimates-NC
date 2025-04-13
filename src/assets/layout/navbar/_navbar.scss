@@ -1,0 +1,64 @@
+.navbar {
+  //   background: $primary;
+  position: fixed;
+  top: 0;
+  z-index: 95;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  transition: 0.4s all;
+  background: $bgDark;
+
+  &.transparent {
+    background: transparent !important;
+
+    .navlinks {
+      a {
+        color: $bg;
+
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+
+  .logo-container {
+    width: 100px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .navlinks {
+    gap: 40px;
+
+    a {
+      text-decoration: none;
+      color: var(--p-surface-900);
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 2px;
+      transition: 0.4s all;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  .book-btn {
+    color: var(--p-surface-900);
+    background: $secondary;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.4s all;
+
+    &:hover {
+      background: $primary;
+      color: white;
+    }
+  }
+}

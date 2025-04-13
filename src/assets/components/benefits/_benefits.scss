@@ -1,0 +1,40 @@
+.benefits-section {
+  padding: 50px 30px 0 30px;
+  z-index: 2;
+  margin-bottom: -50px;
+
+  h2 {
+    text-align: center;
+    font-family: "Acme Gothic";
+    font-size: 40px;
+  }
+
+  .benefits-container {
+    max-width: 1000px;
+    margin: 100px auto 0 auto;
+    gap: 20px;
+    justify-content: space-between;
+
+    .benefit {
+      width: 320px;
+      background: $bgDark;
+      padding: 40px 20px;
+
+      .image-container {
+        margin: 0 auto;
+        width: 200px;
+        margin-top: -150px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      // &:nth-of-type(2) {
+      //   .image-container {
+      //     margin-top: -120px;
+      //   }
+      // }
+    }
+  }
+}

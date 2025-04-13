@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://db.onlinewebfonts.com/c/263ad024161259960d3a778bf82ae1b4?family=Acme+Gothic");
+
+@import "./breakpoints/breakpoints";
+@import "./variables/variables";
+@import "./constants/constants";
+@import "./layout/layout";
+@import "./components/components";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 600 !important;
+  overflow-x: hidden;
+  background: #f0ebe3;
+  scroll-behavior: smooth;
+}

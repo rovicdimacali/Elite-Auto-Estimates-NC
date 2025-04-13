@@ -1,0 +1,79 @@
+footer {
+  .image-header {
+    background: black;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .footer-content {
+    background: $bg;
+    margin-top: -50px;
+    font-weight: normal;
+    padding-bottom: 50px;
+
+    .content {
+      max-width: 1300px;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+
+      img {
+        width: 200px;
+      }
+
+      .address {
+        padding-left: 25px;
+        p {
+          margin: 5px;
+        }
+      }
+
+      .email {
+        padding-left: 30px;
+      }
+    }
+
+    .links {
+      gap: 50px;
+
+      .navlinks {
+        p {
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+
+    .newsletter {
+      p {
+        font-weight: bold;
+      }
+
+      .input-container {
+        width: 350px;
+
+        input {
+          padding: 10px 15px;
+        }
+      }
+      .p-button {
+        border-radius: 0px;
+      }
+    }
+  }
+
+  .copyright {
+    padding: 0 0 20px 0;
+    p {
+      text-align: center;
+    }
+  }
+}
