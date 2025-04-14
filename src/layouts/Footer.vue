@@ -4,7 +4,7 @@
       <img src="https://cdn-eae.need-clients.com/City%20Shadows.png" />
     </div>
     <div class="footer-content">
-      <div class="content row">
+      <div class="content wrap">
         <div class="company-info col">
           <img
             src="https://cdn-eae.need-clients.com/eliteautoestimates-logo.webp"

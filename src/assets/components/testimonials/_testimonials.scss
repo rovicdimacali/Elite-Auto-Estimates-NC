@@ -8,8 +8,17 @@
     font-size: 40px;
     margin: 0;
   }
+
   p {
     text-align: center;
+
+    @include m-phone {
+      padding: 0 30px;
+    }
+
+    @include sm-phone {
+      padding: 0 30px;
+    }
   }
 
   .testimonial-row {
@@ -25,6 +34,14 @@
         background: white;
         border-radius: 20px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        @include m-phone {
+          width: 350px;
+        }
+
+        @include sm-phone {
+          width: 350px;
+        }
 
         .header {
           align-items: center;
@@ -47,7 +64,26 @@
             p {
               text-align: left;
               margin: 0;
+              padding: 0;
+
+              @include m-phone {
+                font-size: 13px;
+              }
+
+              @include sm-phone {
+                font-size: 13px;
+              }
             }
+          }
+        }
+
+        .content {
+          @include m-phone {
+            font-size: 13px;
+          }
+
+          @include sm-phone {
+            font-size: 13px;
           }
         }
       }

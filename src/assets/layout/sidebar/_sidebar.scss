@@ -1,0 +1,30 @@
+.sidebar {
+  background: $bg !important;
+
+  .logo-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+
+    img {
+      width: 100px;
+    }
+
+    i {
+      font-size: 25px;
+      color: var(--p-surface-900);
+    }
+  }
+
+  .navlinks {
+    padding: 0 30px;
+    gap: 20px;
+
+    a {
+      text-decoration: none;
+      color: var(--p-surface-900);
+      font-size: 25px;
+    }
+  }
+}

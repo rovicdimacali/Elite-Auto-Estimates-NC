@@ -1,4 +1,5 @@
 <template>
+  <sidebar :visible="sidebarVisible" @close="sidebarVisible = false" />
   <nav :class="['navbar', 'row', { transparent: atTop }]">
     <div class="logo-container">
       <img
@@ -15,14 +16,18 @@
     <div class="book-now-container">
       <a class="book-btn" @click.prevent="scrollTo('#form')">Book a Call</a>
     </div>
+    <i class="pi pi-bars burger-icon" @click="sidebarVisible = true"></i>
   </nav>
 </template>
 
 <script>
+import sidebar from "./sidebar.vue";
 export default {
+  components: { sidebar },
   data() {
     return {
       atTop: true,
+      sidebarVisible: false,
     };
   },
 

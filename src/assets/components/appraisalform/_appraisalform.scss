@@ -6,9 +6,29 @@
     max-width: 1100px;
     margin: 0 auto;
 
+    @include xs-desktop {
+      max-width: 900px;
+    }
+
     .hero {
       flex-grow: 1;
       flex-basis: 550px;
+
+      @include tablet {
+        display: none;
+      }
+
+      @include lg-phone {
+        display: none;
+      }
+
+      @include m-phone {
+        display: none;
+      }
+
+      @include sm-phone {
+        display: none;
+      }
 
       width: 550px;
       height: fit-content;
@@ -30,6 +50,23 @@
       padding: 50px;
       justify-content: center;
 
+      @include lg-phone {
+        width: 100%;
+        max-width: 550px;
+      }
+
+      @include m-phone {
+        width: 100%;
+        max-width: 550px;
+        padding: 50px 10px;
+      }
+
+      @include sm-phone {
+        width: 100%;
+        max-width: 550px;
+        padding: 50px 10px;
+      }
+
       h1 {
         color: white;
         font-size: 40px;
@@ -37,6 +74,14 @@
         margin: 0;
         text-align: center;
         font-family: "Acme Gothic";
+
+        @include m-phone {
+          font-size: 30px;
+        }
+
+        @include sm-phone {
+          font-size: 30px;
+        }
       }
 
       p {
@@ -44,6 +89,14 @@
         font-weight: normal;
         text-align: center;
         font-family: "Acme Gothic";
+
+        @include m-phone {
+          font-size: 15px;
+        }
+
+        @include sm-phone {
+          font-size: 15px;
+        }
       }
 
       .form {

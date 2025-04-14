@@ -28,7 +28,7 @@ import ToastService from "primevue/toastservice";
 import Dialog from "primevue/dialog";
 import Textarea from "primevue/textarea";
 import Rating from "primevue/rating";
-
+import Drawer from "primevue/drawer";
 import LoadingPage from "./layouts/LoadingPage.vue";
 
 import Vue3Marquee from "vue3-marquee";
@@ -91,6 +91,7 @@ app.component("Dialog", Dialog);
 app.component("Image", Image);
 app.component("Textarea", Textarea);
 app.component("Rating", Rating);
+app.component("Drawer", Drawer);
 
 app.component("LoadingPage", LoadingPage);
 

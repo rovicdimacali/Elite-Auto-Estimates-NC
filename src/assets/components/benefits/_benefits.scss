@@ -16,7 +16,8 @@
     justify-content: space-between;
 
     .benefit {
-      width: 320px;
+      flex-grow: 1;
+      flex-basis: 290px;
       background: $bgDark;
       padding: 40px 20px;
 

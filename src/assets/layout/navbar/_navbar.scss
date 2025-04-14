@@ -1,5 +1,4 @@
 .navbar {
-  //   background: $primary;
   position: fixed;
   top: 0;
   z-index: 95;
@@ -9,6 +8,18 @@
   padding: 0 100px;
   transition: 0.4s all;
   background: $bgDark;
+
+  @include tablet {
+    padding: 0 50px;
+  }
+
+  @include lg-phone {
+    padding: 0 40px;
+  }
+
+  @include m-phone {
+    padding: 0 30px;
+  }
 
   &.transparent {
     background: transparent !important;
@@ -20,6 +31,14 @@
         &:hover {
           color: $secondary;
         }
+      }
+    }
+
+    .burger-icon {
+      color: $bg;
+
+      &:hover {
+        color: $secondary;
       }
     }
   }
@@ -34,6 +53,18 @@
 
   .navlinks {
     gap: 40px;
+
+    @include lg-phone {
+      display: none;
+    }
+
+    @include m-phone {
+      display: none;
+    }
+
+    @include sm-phone {
+      display: none;
+    }
 
     a {
       text-decoration: none;
@@ -56,9 +87,38 @@
     cursor: pointer;
     transition: 0.4s all;
 
+    @include lg-phone {
+      display: none;
+    }
+
+    @include m-phone {
+      display: none;
+    }
+
+    @include sm-phone {
+      display: none;
+    }
+
     &:hover {
       background: $primary;
       color: white;
+    }
+  }
+
+  .burger-icon {
+    color: var(--p-surface-900);
+    display: none;
+
+    @include lg-phone {
+      display: block;
+    }
+
+    @include m-phone {
+      display: block;
+    }
+
+    @include sm-phone {
+      display: block;
     }
   }
 }

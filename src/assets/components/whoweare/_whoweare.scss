@@ -7,6 +7,14 @@
 
   h2 {
     font-size: 40px;
+
+    @include m-phone {
+      font-size: 30px;
+    }
+
+    @include sm-phone {
+      font-size: 30px;
+    }
   }
 
   .card {
@@ -17,6 +25,28 @@
 
     h3 {
       text-transform: uppercase;
+
+      @include m-phone {
+        font-size: 15px;
+      }
+
+      @include sm-phone {
+        font-size: 15px;
+      }
+    }
+
+    p {
+      @include lg-phone {
+        font-size: 12px;
+      }
+
+      @include m-phone {
+        font-size: 12px;
+      }
+
+      @include sm-phone {
+        font-size: 12px;
+      }
     }
   }
 }

@@ -4,6 +4,22 @@
       flex-grow: 1;
       flex-basis: 500px;
 
+      @include tablet {
+        flex-basis: unset;
+      }
+
+      @include lg-phone {
+        flex-basis: unset;
+      }
+
+      @include m-phone {
+        flex-basis: unset;
+      }
+
+      @include sm-phone {
+        flex-basis: unset;
+      }
+
       img {
         width: 100%;
       }
@@ -16,11 +32,51 @@
       align-items: center;
       justify-content: center;
 
+      @include sm-desktop {
+        padding: 30px 50px;
+      }
+
+      @include xs-desktop {
+        padding: 30px 50px;
+      }
+
+      @include tablet {
+        flex-basis: unset;
+        padding: 50px;
+      }
+
+      @include lg-phone {
+        flex-basis: unset;
+        padding: 50px;
+      }
+
+      @include m-phone {
+        flex-basis: unset;
+        padding: 30px;
+      }
+
+      @include sm-phone {
+        flex-basis: unset;
+        padding: 30px;
+      }
+
       h2 {
         margin: 0;
         width: fit-content;
         position: relative;
         text-transform: uppercase;
+
+        @include sm-desktop {
+          font-size: 20px;
+        }
+
+        @include xs-desktop {
+          font-size: 16px;
+        }
+
+        @include m-phone {
+          text-align: center;
+        }
 
         &::before,
         &::after {
@@ -29,6 +85,18 @@
           width: 18px;
           height: 18px;
           border: solid var(--p-surface-900);
+
+          @include xs-desktop {
+            display: none;
+          }
+
+          @include m-phone {
+            display: none;
+          }
+
+          @include sm-phone {
+            display: none;
+          }
         }
 
         &::before {
@@ -46,8 +114,54 @@
         }
       }
 
-      .request {
-        margin-top: 0px;
+      .list {
+        gap: 40px;
+        display: flex;
+
+        @include m-phone {
+          flex-direction: column !important;
+          gap: 0px;
+          margin-bottom: 20px;
+        }
+
+        @include sm-phone {
+          flex-direction: column !important;
+          gap: 0px;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          margin: 0;
+        }
+
+        p {
+          @include sm-desktop {
+            font-size: 13px;
+          }
+
+          @include xs-desktop {
+            font-size: 13px;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    &:last-of-type {
+      @include tablet {
+        flex-direction: column-reverse;
+      }
+
+      @include lg-phone {
+        flex-direction: column-reverse;
+      }
+
+      @include m-phone {
+        flex-direction: column-reverse;
+      }
+
+      @include sm-phone {
+        flex-direction: column-reverse;
       }
     }
   }

@@ -29,6 +29,11 @@
   gap: 10px;
 }
 
+.col-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .wrap {
   display: flex;
   flex-wrap: wrap;
