@@ -1,9 +1,11 @@
 footer {
   .image-header {
     background: black;
+    overflow-x: hidden;
 
     img {
-      width: 100%;
+      object-position: center;
+      object-fit: cover;
     }
   }
 
