@@ -44,69 +44,108 @@ footer {
       @include m-phone {
         width: 100%;
         padding: 0 50px;
-        justify-content: center;
-      }
+        justify-content: start;
 
-      @include sm-phone {
-        width: 100%;
-        padding: 0 50px;
-        justify-content: center;
-      }
+        @include sm-phone {
+          width: 100%;
+          padding: 0 50px;
+          justify-content: start;
+        }
 
-      img {
-        width: 200px;
-      }
+        .company-info {
+          img {
+            width: 200px;
 
-      .address {
-        padding-left: 25px;
-        p {
-          margin: 5px;
+            @include lg-phone {
+              margin-left: -25px;
+            }
+
+            @include m-phone {
+              margin-left: -25px;
+            }
+
+            @include sm-phone {
+              margin-left: -25px;
+            }
+          }
+
+          .address {
+            padding-left: 30px;
+
+            @include lg-phone {
+              padding-left: 0;
+            }
+
+            @include m-phone {
+              padding-left: 0;
+            }
+
+            @include sm-phone {
+              padding-left: 0;
+            }
+
+            p {
+              margin-block: 5px;
+            }
+          }
+
+          .email {
+            padding-left: 30px;
+
+            @include lg-phone {
+              padding-left: 0;
+            }
+
+            @include m-phone {
+              padding-left: 0;
+            }
+
+            @include sm-phone {
+              padding-left: 0;
+            }
+          }
         }
       }
 
-      .email {
-        padding-left: 30px;
+      .links {
+        gap: 50px;
+
+        .navlinks {
+          p {
+            font-size: 20px;
+            font-weight: bold;
+          }
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
       }
-    }
 
-    .links {
-      gap: 50px;
-
-      .navlinks {
+      .newsletter {
         p {
-          font-size: 20px;
           font-weight: bold;
         }
 
-        a {
-          text-decoration: none;
-          color: black;
+        .input-container {
+          width: 350px;
+
+          @include m-phone {
+            width: 300px;
+          }
+
+          @include sm-phone {
+            width: 300px;
+          }
+
+          input {
+            padding: 10px 15px;
+          }
         }
-      }
-    }
-
-    .newsletter {
-      p {
-        font-weight: bold;
-      }
-
-      .input-container {
-        width: 350px;
-
-        @include m-phone {
-          width: 300px;
+        .p-button {
+          border-radius: 0px;
         }
-
-        @include sm-phone {
-          width: 300px;
-        }
-
-        input {
-          padding: 10px 15px;
-        }
-      }
-      .p-button {
-        border-radius: 0px;
       }
     }
   }
