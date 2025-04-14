@@ -77,41 +77,6 @@
         @include m-phone {
           text-align: center;
         }
-
-        &::before,
-        &::after {
-          content: "";
-          position: absolute;
-          width: 18px;
-          height: 18px;
-          border: solid var(--p-surface-900);
-
-          @include xs-desktop {
-            display: none;
-          }
-
-          @include m-phone {
-            display: none;
-          }
-
-          @include sm-phone {
-            display: none;
-          }
-        }
-
-        &::before {
-          left: -18px;
-          bottom: -18px;
-          border-top: none;
-          border-right: none;
-        }
-
-        &::after {
-          right: -18px;
-          top: -18px;
-          border-bottom: none;
-          border-left: none;
-        }
       }
 
       .list {
