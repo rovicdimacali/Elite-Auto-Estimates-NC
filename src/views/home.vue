@@ -7,6 +7,7 @@
   <benefits id="benefits" />
   <appraisalform id="form" />
   <Footer />
+  <ScrollTop />
 </template>
 
 <script>

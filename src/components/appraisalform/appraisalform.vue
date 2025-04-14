@@ -89,7 +89,11 @@
               >{{ $form.contact_number.error?.message }}</Message
             >
           </div>
-          <Button label="SUBMIT" />
+          <Button
+            icon="pi pi-send"
+            label="SUBMIT"
+            style="padding-block: 12px"
+          />
         </Form>
       </div>
     </div>

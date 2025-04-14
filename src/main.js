@@ -30,6 +30,7 @@ import Textarea from "primevue/textarea";
 import Rating from "primevue/rating";
 import Drawer from "primevue/drawer";
 import LoadingPage from "./layouts/LoadingPage.vue";
+import ScrollTop from "primevue/scrolltop";
 
 import Vue3Marquee from "vue3-marquee";
 
@@ -92,6 +93,7 @@ app.component("Image", Image);
 app.component("Textarea", Textarea);
 app.component("Rating", Rating);
 app.component("Drawer", Drawer);
+app.component("ScrollTop", ScrollTop);
 
 app.component("LoadingPage", LoadingPage);
 
