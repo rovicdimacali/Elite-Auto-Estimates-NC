@@ -20,7 +20,7 @@
           data-aos-delay="500"
           class="cta col"
         >
-          <h2>Top-Rated Auto Damage Appraisal Services in Colorado</h2>
+          <h2>Accelerating the Claims Process Through Excellence</h2>
           <a href="" class="row-10 request" @click.prevent="scrollTo('#form')"
             ><p>Request an Estimate Now</p>
             <i class="pi pi-arrow-right"></i

@@ -8,37 +8,25 @@
         />
       </div>
       <div class="copy-container col">
-        <h2>Comprehensive Expertise</h2>
+        <h2>Speed & Precision in Claims Processing</h2>
 
         <div class="list">
-          <ul>
-            <li><p>Hail Damage</p></li>
-            <li><p>Collision Repair</p></li>
-            <li><p>Fire & Flood Damage</p></li>
-          </ul>
-          <ul>
-            <li><p>Total Loss Evaluation</p></li>
-            <li><p>Specialty Vehicles</p></li>
-            <li><p>Heavy Equipment</p></li>
-          </ul>
+          <p>
+            Our innovative system delivers accurate estimates within 24 hours,
+            significantly reducing claim cycle times and getting vehicles into
+            repairs faster.
+          </p>
         </div>
       </div>
     </div>
     <div class="service wrap">
       <div class="copy-container col">
-        <h2>Speed & Precision. Always Customer-First.</h2>
+        <h2>Getting Vehicles Back on the Road Faster</h2>
         <div class="list">
-          <ul>
-            <li><p>24-Hour Estimate Turnaround</p></li>
-            <li><p>Easy, Convenient Scheduling</p></li>
-            <li><p>Clear Communication Throughout</p></li>
-            <li><p>Faster Vehicle Repairs</p></li>
-          </ul>
-          <ul>
-            <li><p>Reduced Supplements</p></li>
-            <li><p>Reduced Claim Cycles</p></li>
-            <li><p>Enhanced Customer Satisfaction</p></li>
-          </ul>
+          <p>
+            Professional Auto Damage Appraisal Services in Colorado Streamlining
+            Claims with 24-Hour Turnaround.
+          </p>
         </div>
       </div>
       <div class="image-container">

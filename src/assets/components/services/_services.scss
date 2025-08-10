@@ -61,6 +61,7 @@
       }
 
       h2 {
+        font-size: 30px;
         margin: 0;
         width: fit-content;
         position: relative;
@@ -79,36 +80,10 @@
         }
       }
 
-      .list {
-        gap: 40px;
-        display: flex;
-
-        @include m-phone {
-          flex-direction: column !important;
-          gap: 0px;
-          margin-bottom: 20px;
-        }
-
-        @include sm-phone {
-          flex-direction: column !important;
-          gap: 0px;
-          margin-bottom: 20px;
-        }
-
-        ul {
-          margin: 0;
-        }
-
-        p {
-          @include sm-desktop {
-            font-size: 13px;
-          }
-
-          @include xs-desktop {
-            font-size: 13px;
-            margin: 0;
-          }
-        }
+      p {
+        font-size: 20px;
+        max-width: 500px;
+        text-align: center;
       }
     }
 

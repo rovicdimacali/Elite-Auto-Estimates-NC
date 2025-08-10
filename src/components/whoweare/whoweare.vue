@@ -3,38 +3,24 @@
     <h2 data-aos="fade-down" data-aos-duration="2000">GET TO KNOW US</h2>
 
     <div class="card" data-aos="zoom-in" data-aos-duration="2000">
-      <h3>Technology Integration</h3>
+      <h3>Elite Auto Estimates</h3>
       <p>
-        At the forefront of innovation, our team excels in leveraging advanced
-        technology to streamline the appraisal and claims process. We are highly
-        proficient in multiple carrier claim management systems, ensuring
-        accurate and timely processing of insurance claims. Our experience
-        includes the use of cutting-edge photo documentation platforms that
-        enhance visual reporting and transparency. Additionally, we utilize
-        mobile estimating solutions and electronic payment systems to improve
-        turnaround times and client satisfaction. Our commitment to efficiency
-        is further supported by our use of digital documentation tools, allowing
-        for secure, organized, and paperless operations.
+        Elite Auto Estimates, headquartered in Colorado, provides professional
+        auto damage appraisal services with guaranteed estimates within 24
+        hours. With decades of expertise, we serve a diverse clientele,
+        including insurance companies, multinational fleets, and third-party
+        administrators. Our goal is to streamline the claims process and
+        expedite vehicle repairs through flexible scheduling, clear
+        communication, and mobile support available seven days a week. We are
+        dedicated to enhancing operational efficiency, customer engagement, and
+        driving revenue growth through strategic social media marketing and
+        optimized staffing. Our focus is on delivering reliable, efficient, and
+        customer-centric solutions for both auto repair businesses and clients.
       </p>
     </div>
 
     <div class="card" data-aos="zoom-in" data-aos-duration="2000">
-      <h3>Professional Certifications</h3>
-      <p>
-        Our appraisers and field professionals maintain a high standard of
-        credibility through a variety of industry-recognized certifications. We
-        strictly adhere to continuing education compliance to ensure our
-        knowledge remains up-to-date with evolving insurance regulations and
-        best practices. Regular training on the latest software updates allows
-        us to use the most current tools in the field effectively. We are also
-        deeply committed to ongoing professional development, continuously
-        expanding our expertise to deliver the most reliable and accurate
-        appraisal services in the industry.
-      </p>
-    </div>
-
-    <div class="card" data-aos="zoom-in" data-aos-duration="2000">
-      <h3>Industry Experts</h3>
+      <h3>Your Trusted Auto Damage Appraisers</h3>
       <p>
         Our team has extensive experience collaborating with a wide range of
         insurance industry leaders. We regularly partner with major national
@@ -46,6 +32,21 @@
         companies, offering flexible, tailored services to meet their unique
         operational needs. This diverse experience positions us as a trusted
         expert across the appraisal and claims ecosystem.
+        <br /><br />
+        Our mission is to drive operational efficiency and elevate customer
+        engagement across the United States.
+      </p>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-duration="2000">
+      <h3>World Class Customer Support</h3>
+      <p>
+        At Elite Auto Estimates, we are committed to providing world-class
+        customer support. Our team is dedicated to delivering clear
+        communication, prompt responses, and ongoing assistance throughout the
+        appraisal process. With mobile support available seven days a week, we
+        ensure a seamless experience, addressing any questions or concerns with
+        professionalism and care.
       </p>
     </div>
 
