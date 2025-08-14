@@ -12,8 +12,8 @@
           />
           <div class="address">
             <p>Elite Auto Estimates</p>
-            <p>1234 Colorado St.</p>
-            <p>Denver, Colorado</p>
+            <p>610 S Ulster St., Suite 150</p>
+            <p>Denver, Colorado. 80237</p>
           </div>
           <div class="email">
             <p>support@eliteautoestimates.com</p>
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="copyright">
-      <p>© Elite Auto Estimates 2023. All Rights Reserved.</p>
+      <p>© Elite Auto Estimates 2025. All Rights Reserved.</p>
     </div>
   </footer>
 </template>

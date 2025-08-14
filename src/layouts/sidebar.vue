@@ -20,6 +20,7 @@
       <a href="#services" @click.prevent="scrollTo('#services')">Services</a>
       <a href="#about-us" @click.prevent="scrollTo('#about-us')">About Us</a>
       <a href="#benefits" @click.prevent="scrollTo('#benefits')">Benefits</a>
+      <a href="https://blogs.eliteautoestimates.com">Blogs</a>
       <a href="#form" @click.prevent="scrollTo('#form')">Book a Call</a>
     </div>
   </Drawer>
