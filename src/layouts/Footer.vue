@@ -12,8 +12,8 @@
           />
           <div class="address">
             <p>Elite Auto Estimates</p>
-            <p>610 S Ulster St., Suite 150</p>
-            <p>Denver, Colorado. 80237</p>
+            <p>4610 S Ulster St, Ste 150</p>
+            <p>Denver, Colorado, 80237</p>
           </div>
           <div class="email">
             <p>720-710-5162</p>
