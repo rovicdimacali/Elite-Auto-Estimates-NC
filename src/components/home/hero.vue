@@ -22,7 +22,7 @@
         >
           <h2>Accelerating the Claims Process Through Excellence</h2>
           <a href="" class="row-10 request" @click.prevent="scrollTo('#form')"
-            ><p>Request an Estimate Now</p>
+            ><p>Hire Us!</p>
             <i class="pi pi-arrow-right"></i
           ></a>
         </div>

@@ -14,8 +14,7 @@
         communication, and mobile support available seven days a week. We are
         dedicated to enhancing operational efficiency, customer engagement, and
         driving revenue growth through strategic social media marketing and
-        optimized staffing. Our focus is on delivering reliable, efficient, and
-        customer-centric solutions for both auto repair businesses and clients.
+        optimized staffing.
       </p>
     </div>
 
@@ -25,13 +24,11 @@
         Our team has extensive experience collaborating with a wide range of
         insurance industry leaders. We regularly partner with major national
         insurance carriers and regional insurance providers to deliver
-        consistent, high-quality appraisal services. In addition, we work
-        closely with large Multi-Shop Operator (MSO) networks, providing
-        scalable solutions for vehicle damage assessments and repair estimates.
-        We also support independent appraisal firms and fleet management
-        companies, offering flexible, tailored services to meet their unique
-        operational needs. This diverse experience positions us as a trusted
-        expert across the appraisal and claims ecosystem.
+        consistent, high-quality appraisal services. We also support independent
+        appraisal firms and fleet management companies, offering flexible,
+        tailored services to meet their unique operational needs. This diverse
+        experience positions us as a trusted expert across the appraisal and
+        claims ecosystem.
         <br /><br />
         Our mission is to drive operational efficiency and elevate customer
         engagement across the United States.

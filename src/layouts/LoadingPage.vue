@@ -1,7 +1,7 @@
 <template>
   <div class="loading-container">
     <img
-      src="https://cdn-eae.need-clients.com/eliteautoestimates-logo.webp"
+      src="https://cdn-eae.need-clients.com/eae-logo.png"
       alt="Elite Auto Estimates Logo"
       class="pulse"
     />

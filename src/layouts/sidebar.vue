@@ -8,9 +8,7 @@
   >
     <template #header>
       <div class="logo-container row">
-        <img
-          src="https://cdn-eae.need-clients.com/eliteautoestimates-logo.webp"
-        />
+        <img src="https://cdn-eae.need-clients.com/eae-logo.png" />
         <i class="pi pi-times" @click="$emit('close')"></i>
       </div>
     </template>

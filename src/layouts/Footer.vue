@@ -7,7 +7,7 @@
       <div class="content wrap">
         <div class="company-info col">
           <img
-            src="https://cdn-eae.need-clients.com/eliteautoestimates-logo.webp"
+            src="https://cdn-eae.need-clients.com/eae-logo.png"
             alt="Elite Auto Estimates Logo"
           />
           <div class="address">
