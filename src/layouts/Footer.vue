@@ -41,9 +41,7 @@
             <a href="#home" @click.prevent="scrollTo('#home')"
               >Terms & Agreement</a
             >
-            <a href="#services" @click.prevent="scrollTo('#services')"
-              >Privacy Policy</a
-            >
+            <RouterLink to="/privacy-policy">Privacy Policy</RouterLink>
           </div>
         </div>
         <div class="newsletter">
