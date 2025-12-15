@@ -12,15 +12,40 @@
       </p>
 
       <div class="section">
+        <h2>Website & Opt-In (Consent)</h2>
+        <p>
+          If you submit an online form on our website and provide your mobile
+          number, you are consenting to receive text messages from Elite Auto
+          Estimates related to customer care and account notifications, such as
+          follow-ups when you do not answer our phone calls, coordinating
+          scheduling, and confirming appointment details.
+        </p>
+        <p>
+          We do not use SMS for marketing, promotional, or bulk informational
+          messages.
+        </p>
+        <p>
+          Message frequency may vary. On average, you can expect to receive
+          1–2 messages per month. Message and data rates may apply.
+        </p>
+        <p>
+          For help, reply <code>HELP</code> or <code>INFO</code>. To opt out,
+          reply <code>STOP</code> or <code>UNSUBSCRIBE</code>.
+        </p>
+      </div>
+
+      <div class="section">
         <h2>Information We Collect</h2>
         <ul>
           <li>
-            Your name and mobile phone number, provided by your insurance
-            company so we may contact you regarding your claim.
+            Your name and mobile phone number, provided by you (e.g., through a
+            form submission) or by your insurance company so we may contact you
+            regarding your claim.
           </li>
           <li>
-            Message content strictly limited to scheduling, confirming, or
-            updating your appointment.
+            Message content strictly limited to customer care and account
+            notification purposes (e.g., scheduling, confirming, or updating an
+            appointment).
           </li>
           <li>
             We do not collect unnecessary personal information through our SMS
@@ -45,8 +70,9 @@
       <div class="section">
         <h2>Message Frequency</h2>
         <p>
-          You will receive only the minimum number of messages required to
-          coordinate your appointment.
+          Message frequency may vary. On average, you can expect to receive 1–2
+          messages per month. We send only the minimum number of messages needed
+          to coordinate scheduling and confirm appointment details.
         </p>
       </div>
 
@@ -61,12 +87,17 @@
       <div class="section">
         <h2>Opt-Out & Support</h2>
         <p>
-          <strong>SMS Commands:</strong> Reply <code>STOP</code> at any time to
-          stop receiving SMS communications. Reply <code>HELP</code> for
+          <strong>SMS Commands:</strong> Reply <code>STOP</code> or
+          <code>UNSUBSCRIBE</code> at any time to stop receiving SMS
+          communications. Reply <code>HELP</code> or <code>INFO</code> for
           assistance.
         </p>
         <p>
-          For support, call us at <a href="tel:7207105162">(720) 710-5162</a>.
+          For support, call us at <a href="tel:7207105162">(720) 710-5162</a> or
+          email
+          <a href="mailto:support@eliteautoestimates.com"
+            >support@eliteautoestimates.com</a
+          >.
         </p>
       </div>
 
@@ -74,8 +105,9 @@
         <h2>Data Sharing</h2>
         <p>
           We do not share, sell, or rent your mobile number, opt-in data, or SMS
-          consent information with third parties. Your information is used
-          solely for claim-related scheduling.
+          consent information with third parties for marketing purposes. Your
+          information is used solely for customer care and account notification
+          purposes related to your claim and appointment coordination.
         </p>
       </div>
 
@@ -89,6 +121,13 @@
 
       <div class="section">
         <h2>Your Privacy Rights & Contact</h2>
+        <p>
+          For more information on our Privacy Policy and Terms & Conditions,
+          please email us at
+          <a href="mailto:support@eliteautoestimates.com"
+            >support@eliteautoestimates.com</a
+          >.
+        </p>
         <address>
           <strong>Business Details</strong><br />
           Elite Auto Estimates<br />
@@ -112,7 +151,7 @@
       </div>
 
       <div class="last-updated">
-        <p><strong>Last Updated:</strong> October 7, 2025</p>
+        <p><strong>Last Updated:</strong> December 16, 2025</p>
       </div>
     </section>
   </main>
@@ -124,11 +163,13 @@
 <script>
 import navbar from "@/layouts/navbar.vue";
 import Footer from "@/layouts/Footer.vue";
+import ScrollTop from "@/layouts/ScrollTop.vue";
 
 export default {
   components: {
     navbar,
     Footer,
+    ScrollTop,
   },
 };
 </script>
