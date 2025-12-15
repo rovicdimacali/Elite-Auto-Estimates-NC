@@ -13,6 +13,7 @@
           />
         </div>
       </div>
+
       <div
         class="form-container col"
         data-aos="zoom-in"
@@ -35,8 +36,10 @@
             severity="error"
             size="small"
             variant="simple"
-            >{{ error }}</Message
           >
+            {{ error }}
+          </Message>
+
           <div class="input-container col-5">
             <IftaLabel>
               <InputText id="first_name" name="first_name" />
@@ -47,9 +50,11 @@
               severity="error"
               size="small"
               variant="simple"
-              >{{ $form.first_name.error?.message }}</Message
             >
+              {{ $form.first_name.error?.message }}
+            </Message>
           </div>
+
           <div class="input-container col-5">
             <IftaLabel>
               <InputText id="last_name" name="last_name" />
@@ -60,9 +65,11 @@
               severity="error"
               size="small"
               variant="simple"
-              >{{ $form.last_name.error?.message }}</Message
             >
+              {{ $form.last_name.error?.message }}
+            </Message>
           </div>
+
           <div class="input-container col-5">
             <IftaLabel>
               <InputText id="email" name="email" />
@@ -73,9 +80,11 @@
               severity="error"
               size="small"
               variant="simple"
-              >{{ $form.email.error?.message }}</Message
             >
+              {{ $form.email.error?.message }}
+            </Message>
           </div>
+
           <div class="input-container col-5">
             <IftaLabel>
               <InputText id="contact_number" name="contact_number" />
@@ -86,9 +95,28 @@
               severity="error"
               size="small"
               variant="simple"
-              >{{ $form.contact_number.error?.message }}</Message
             >
+              {{ $form.contact_number.error?.message }}
+            </Message>
+
+            <!-- SMS OPT-IN DISCLOSURE (REQUIRED) -->
+            <p class="sms-consent">
+              By submitting this form, you agree to receive text messages from
+              <strong>Elite Auto Estimates</strong> regarding customer care and
+              account notifications, such as follow-ups, scheduling, and
+              appointment confirmations. Message frequency may vary (average
+              1–2 messages per month). Message and data rates may apply.
+              Reply <strong>STOP</strong> or <strong>UNSUBSCRIBE</strong> to opt
+              out, or <strong>HELP</strong> / <strong>INFO</strong> for assistance.
+              View our
+              <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+              or email
+              <a href="mailto:support@eliteautoestimates.com">
+                support@eliteautoestimates.com
+              </a>.
+            </p>
           </div>
+
           <Button
             icon="pi pi-send"
             label="SUBMIT"
@@ -104,4 +132,20 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+.sms-consent {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+.sms-consent a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.sms-consent a:hover {
+  text-decoration: underline;
+}
+</style>
