@@ -3,7 +3,7 @@
 
   <main class="policy-page">
     <section class="container">
-      <h1 class="title">SMS Privacy Policy</h1>
+      <h1 class="title">SMS Privacy Policysssssssssssssss</h1>
 
       <p>
         <strong>Elite Auto Estimates</strong> (“we,” “our,” “us”) values your
