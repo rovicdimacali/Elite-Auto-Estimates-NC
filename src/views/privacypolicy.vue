@@ -25,8 +25,8 @@
           messages.
         </p>
         <p>
-          Message frequency may vary. On average, you can expect to receive
-          1–2 messages per month. Message and data rates may apply.
+          Message frequency may vary. On average, you can expect to receive 1–2
+          messages per month. Message and data rates may apply.
         </p>
         <p>
           For help, reply <code>HELP</code> or <code>INFO</code>. To opt out,
@@ -157,19 +157,16 @@
   </main>
 
   <Footer />
-  <ScrollTop />
 </template>
 
 <script>
 import navbar from "@/layouts/navbar.vue";
 import Footer from "@/layouts/Footer.vue";
-import ScrollTop from "@/layouts/ScrollTop.vue";
 
 export default {
   components: {
     navbar,
     Footer,
-    ScrollTop,
   },
 };
 </script>
